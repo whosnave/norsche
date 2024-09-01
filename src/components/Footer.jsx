@@ -1,4 +1,7 @@
 import '../styles/footer.css';
+import pixel from "../assets/pixelporsc.png";
+
+
 
 function Footer() {
     return (
@@ -15,8 +18,11 @@ function Footer() {
                     </ul>
                 </div>
                 <div className='footer-section'>
-                    <h3>About The Creator</h3>
-                    <p>boom boom.</p>
+                    <h3>The Creator</h3>
+                    <p>boom boom click ⇩</p>
+                    <p className='wm'>made by nave</p>
+                    <img className="pixel" src={pixel} alt="image" />
+                    
                 </div>
                 <div className='footer-section'>
                     <h3>Contact Us</h3>
