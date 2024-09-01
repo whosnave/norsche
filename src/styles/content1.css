@@ -18,6 +18,8 @@
   text-decoration: none;
   transition: color 0.3s ease, text-shadow 0.3s ease;
   position: absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .head:hover {
