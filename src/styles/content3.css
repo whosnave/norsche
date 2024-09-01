@@ -1,0 +1,31 @@
+#about {
+    text-align: center;
+    padding: 60px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.headc3 {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.headc3:hover {
+    transform: scale(1.05);
+    text-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.deskc3 {
+    font-size: 20px;
+    color: #666;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 1;
+    margin-bottom: 35px;
+}
