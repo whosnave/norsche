@@ -10,15 +10,16 @@
     color: #333;
     margin-bottom: 20px;
     font-weight: bold;
-    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    transition: transform 0.3s ease;
     cursor: pointer;
     display: inline-block;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.headc3:hover {
-    transform: scale(1.05);
-    text-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+.headc3:active {
+    transform: scale(1.1);
 }
+
 
 .deskc3 {
     font-size: 20px;
@@ -28,4 +29,10 @@
     margin: 0 auto;
     opacity: 1;
     margin-bottom: 35px;
+    transition: transform 0.3s ease;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.deskc3:active {
+    transform: scale(1.1);
 }
